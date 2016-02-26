@@ -1,0 +1,7 @@
+algolia.test:
+  path: '/algolia'
+  defaults:
+    _controller: '\Drupal\algolia\Controller\Listing::listData'
+    _title: 'Welcome Title'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,4 @@
+name: Algolia
+description: Algolia integration.
+core: 8.x
+type: module

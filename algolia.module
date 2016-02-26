@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function algolia_theme($existing, $type, $theme, $path) {
+  return array(
+    'algolia_search' => array(
+      'template' => 'algolia-search'
+    ),
+    'algolia_categories' => array(
+      'template' => 'algolia-categories'
+    ),
+  );
+}
